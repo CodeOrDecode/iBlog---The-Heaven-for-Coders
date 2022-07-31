@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation {
+    /* background-color: red; */
+    /* height: 55px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 0px 42px;
+}
+
+.nav-left ul li {
+    margin: 0px 16px;
+}
+
+.koo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.btn {
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 1px 5px;
+    border-radius: 7px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.content-right img {
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 120px;
+}
+
+.content {
+    display: flex;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.home-article {
+    display: flex;
+    padding: 5px 36px;
+
+}
+
+.home-article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 35px;
+
+}
+
+.home-articles {
+    /* background-color: red;  */
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.home-article-content a {
+    text-decoration: none;
+}
+
+.koo {
+    font-size: 28px;
+}
+
+.nav-left ul {
+    align-items: center;
+}
+
+.ttt {
+    flex-direction: column;
+}
+
+@media (max-width:1200px) {
+
+    .navigation {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .nav-left {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-left ul {
+        margin: 15px;
+    }
+
+    .content-right {
+        display: none;
+    }
+
+    .home-article {
+        flex-direction: column;
+    }
+
+    .home-article-content {
+        text-align: center;
+    }
+
+    .year-box {
+        top: 0px;
+        font-size: 10px;
+        display: flex;
+    }
+
+    .form-box input {
+        width: 60vw;
+    }
+
+    .form-box textarea {
+        width: 60vw;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
